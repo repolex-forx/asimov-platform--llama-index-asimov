@@ -203,6 +203,43 @@
         "blob/6143ecf9c917478e0d7e67ba90c07365551fdac2.nq.gz",
         "blob/07c1cba5c8f538f74cbafeb6763ab41e0269a193.nq.gz",
         "blob/4e379d2bfeab6461d0455bf5bbb8792845d9bbea.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/1f41623e429812b8dc9339fa0c50c7ec506d327c.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/1f41623e429812b8dc9339fa0c50c7ec506d327c.nq.gz",
+      "repolex": "aggregate/repolex/1f41623e429812b8dc9339fa0c50c7ec506d327c.nq.gz",
+      "dep": "dep/1f41623e429812b8dc9339fa0c50c7ec506d327c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "asimov-py",
+          "ecosystem": "PYPI",
+          "version": "26.0.0.dev1",
+          "githubOrg": "asimov-platform",
+          "githubRepo": "asimov.py",
+          "githubCommit": "b058535a14de6b810854d1159783aaf677244101",
+          "githubTag": "26.0.0.dev1",
+          "githubUrl": "https://github.com/asimov-platform/asimov.py",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "llama-index-core",
+          "ecosystem": "PYPI",
+          "version": "0.12",
+          "githubOrg": "run-llama",
+          "githubRepo": "llama_index",
+          "githubUrl": "https://github.com/run-llama/llama_index",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyld",
+          "ecosystem": "PYPI",
+          "version": "2",
+          "githubOrg": "digitalbazaar",
+          "githubRepo": "pyld",
+          "githubUrl": "https://github.com/digitalbazaar/pyld",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],

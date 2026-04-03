@@ -36,10 +36,50 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 924
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/1f41623e429812b8dc9339fa0c50c7ec506d327c.nq.gz",
+      "repolex:graphFileSize": 74730
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/1f41623e429812b8dc9339fa0c50c7ec506d327c.nq.gz",
+      "repolex:graphFileSize": 311026
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/1f41623e429812b8dc9339fa0c50c7ec506d327c.nq.gz",
+      "repolex:graphFileSize": 17472
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/1f41623e429812b8dc9339fa0c50c7ec506d327c.nq.gz",
+      "repolex:graphFileSize": 556
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-04-03T07:07:24.738094+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "0.0.2"
+  "git:tagName": "0.0.2",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/asimov-platform/asimov.py",
+      "repolex:packageName": "asimov-py",
+      "git:hexsha": "b058535a14de6b810854d1159783aaf677244101",
+      "git:tagName": "26.0.0.dev1"
+    },
+    {
+      "@id": "https://repolex.ai/r/run-llama/llama_index",
+      "repolex:packageName": "llama-index-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/digitalbazaar/pyld",
+      "repolex:packageName": "pyld"
+    }
+  ]
 }
