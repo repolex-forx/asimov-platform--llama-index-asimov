@@ -21,8 +21,9 @@
     {
       "@id": "https://repolex.ai/r/asimov-platform/llama-index-asimov/commit/1f41623e429812b8dc9339fa0c50c7ec506d327c",
       "git:hexsha": "1f41623e429812b8dc9339fa0c50c7ec506d327c",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "0.0.2"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "0.0.2",
+      "repolex:parsedAt": "2026-04-03T07:07:24.738192+00:00"
     }
   ]
 }
