@@ -47,6 +47,23 @@
         "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
         "blob/d1ffae6c5d3dd76f6e5f746541f37d1df488a62e.nq.gz",
         "blob/07c1cba5c8f538f74cbafeb6763ab41e0269a193.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/5f010572aa0513bfc4b5f6e466b1777b07292128.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5f010572aa0513bfc4b5f6e466b1777b07292128.nq.gz",
+      "repolex": "aggregate/repolex/5f010572aa0513bfc4b5f6e466b1777b07292128.nq.gz",
+      "dep": "dep/5f010572aa0513bfc4b5f6e466b1777b07292128.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "llama-index-core",
+          "ecosystem": "PYPI",
+          "version": "0.12",
+          "githubOrg": "run-llama",
+          "githubRepo": "llama_index",
+          "githubUrl": "https://github.com/run-llama/llama_index",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
